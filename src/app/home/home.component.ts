@@ -256,7 +256,7 @@ export class HomeComponent implements OnInit {
     imageSeries.heatRules.push({
       "target": circle,
       "property": "radius",
-      "min": 4,
+      "min": 5,
       "max": 30,
       "dataField": "value"
     })

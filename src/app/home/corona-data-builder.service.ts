@@ -11,7 +11,7 @@ export class CoronaDataBuilderService {
 
   coronaData(){
     
-    return this._http.get("https://corona.lmao.ninja/countries").pipe(map(result => result));
+    return this._http.get("https://corona.lmao.ninja/v2/countries").pipe(map(result => result));
     
   }
 }
