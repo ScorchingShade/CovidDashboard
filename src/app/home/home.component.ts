@@ -254,6 +254,7 @@ export class HomeComponent implements OnInit {
     circle.propertyFields.fill = "color";
     circle.tooltipText = "{name}: [bold]{value}[/]";
     
+    console.log("We reached here")
     
     imageSeries.heatRules.push({
       "target": circle,
