@@ -30,6 +30,8 @@ export class HomeComponent implements OnInit {
       
       let stringedData = "{\"Dl\":"+JSON.stringify(data)+"}"
 
+      console.log("Here is coronaAPI DATA"+data)
+
        jsonData = JSON.parse(stringedData)
 
        jsonData
