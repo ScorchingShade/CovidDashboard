@@ -11,3 +11,9 @@ table {
     width: 25%;
   }
   
+
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 2%;
+  }
